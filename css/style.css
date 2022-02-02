@@ -1,0 +1,83 @@
+body {
+    background: url("/images/background9.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 80px;
+    color: rgb(73, 45, 25);
+}
+.header{
+        padding: 20px;
+        border-bottom: 1px chocolate;
+        text-align: center;  
+}
+.header-link {
+    margin: 0 10px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(248, 248, 247) ;
+    box-shadow: 0 5px 5px;
+    color: rgb(163, 82, 16);
+   flex: 0;
+}
+.card-photo {
+    display: block ;
+    margin: 0 auto;
+}
+.card-title {
+    font-family: serif ;
+    font-size: 20px;
+    color: chocolate;
+    text-align: center;
+    margin: 45px;
+}
+.contacts-item {
+    display: flex;
+    align-items: center; 
+}
+.p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contacts-icon {
+     margin-right: 20px;
+}
+.link { 
+    color: chocolate;
+    transition: color .2s;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: left;
+    flex-grow: 1;
+    padding-left: 50px;
+}
+h3 {
+    font-family: serif;
+    color: rgb(38, 94, 38);
+}
+.card-sublait {
+color: sandybrown;
+}
+.card-list {
+padding-left: 0;
+}
+
+.footer {
+    border-top: 1px chocolate;
+    padding: 20px;
+    text-align: center;
+    color:rgb(163, 82, 16) 
+}
